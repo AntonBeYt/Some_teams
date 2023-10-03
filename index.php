@@ -21,6 +21,8 @@ require __DIR__ . ('/header.php'); ?>
             </td>
         </tr>
     </table>
+    <h5>made by: me</h5>
+    <h5><a href="https://giphy.com/gifs/football-chicken-bro-elatsjsGzdLtNov4Ky/fullscreen">Learn more</a> </h5>
 </div>
 
 
