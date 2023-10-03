@@ -7,5 +7,5 @@ endforeach;
 
 $cities = array_unique($cities);
 foreach ($cities as $city) :
-    echo $city;
+    echo $city . " ";
 endforeach;

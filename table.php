@@ -19,9 +19,9 @@ require __DIR__ . ('/data.php');
             <td><?php if (isset($team['nickname'])) {
                     echo $team['nickname'];
                 } else {
-                    echo "-";
+                    echo " ";
                 } ?></td>
-            <td><?= $team['url'] ?></td>
+            <td><a href="<?= $team['url'] ?>"><?= $team['url'] ?></a> </td>
         </tr>
     <?php endforeach;  ?>
 </table>
